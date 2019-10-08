@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
-
+require_relative "../spec/02_cli_spec.rb"
 puts "Hello #{name}. It's nice to meet you."
 name = gets.strip
 greeting(name)
