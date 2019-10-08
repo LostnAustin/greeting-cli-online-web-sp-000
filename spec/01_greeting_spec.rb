@@ -1,4 +1,4 @@
-require "../lib/greeting.rb"
+require "./lib/greeting.rb"
 
 describe './lib/greeting.rb' do
   it 'defines a greeting method' do
