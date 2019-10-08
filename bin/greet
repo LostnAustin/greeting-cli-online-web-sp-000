@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
-require_relative "../spec/02_cli_spec.rb"
-puts "Hello #{name}. It's nice to meet you."
+
 name = gets.strip
+
+puts "Hello #{name}. It's nice to meet you."
+
 greeting(name)
 # code your CLI here!
