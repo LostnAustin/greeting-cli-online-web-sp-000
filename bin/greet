@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require "./lib/greeting.rb"
+require "./spec/01_greeting_spec.rb"
 
 # code your CLI here!
